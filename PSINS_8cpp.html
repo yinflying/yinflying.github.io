@@ -147,9 +147,9 @@ const <a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memI
 <tr class="memitem:a5d60b28e5dc0589c755d118be8ba1156"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSINS_8cpp.html#a5d60b28e5dc0589c755d118be8ba1156">pos2Cen</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos)</td></tr>
 <tr class="memdesc:a5d60b28e5dc0589c755d118be8ba1156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get DCM of e-frame to n-frame from geodetic coordinate postion.  <a href="#a5d60b28e5dc0589c755d118be8ba1156">More...</a><br /></td></tr>
 <tr class="separator:a5d60b28e5dc0589c755d118be8ba1156"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1c4ea08f6fdf43399fe3ddd1f08a8e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSINS_8cpp.html#aa1c4ea08f6fdf43399fe3ddd1f08a8e6">pp2vn</a> (<a class="el" href="classCVect3.html">CVect3</a> &amp;pos1, <a class="el" href="classCVect3.html">CVect3</a> &amp;pos0, double ts, <a class="el" href="classCEarth.html">CEarth</a> *pEth)</td></tr>
-<tr class="memdesc:aa1c4ea08f6fdf43399fe3ddd1f08a8e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate average velocity between two position.  <a href="#aa1c4ea08f6fdf43399fe3ddd1f08a8e6">More...</a><br /></td></tr>
-<tr class="separator:aa1c4ea08f6fdf43399fe3ddd1f08a8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0a59678db5529a7a9ad12ca657a0c1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSINS_8cpp.html#ad0a59678db5529a7a9ad12ca657a0c1c">pp2vn</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos1, const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos0, double ts, <a class="el" href="classCEarth.html">CEarth</a> *pEth)</td></tr>
+<tr class="memdesc:ad0a59678db5529a7a9ad12ca657a0c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate average velocity via position difference.  <a href="#ad0a59678db5529a7a9ad12ca657a0c1c">More...</a><br /></td></tr>
+<tr class="separator:ad0a59678db5529a7a9ad12ca657a0c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa140820e217d37cec59c614eab39c1a2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSINS_8cpp.html#aa140820e217d37cec59c614eab39c1a2">MagYaw</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;mag, const <a class="el" href="classCVect3.html">CVect3</a> &amp;att, double declination)</td></tr>
 <tr class="memdesc:aa140820e217d37cec59c614eab39c1a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate yaw angle using geomagnetic field.  <a href="#aa140820e217d37cec59c614eab39c1a2">More...</a><br /></td></tr>
 <tr class="separator:aa140820e217d37cec59c614eab39c1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -831,8 +831,8 @@ const <a class="el" href="classCGLV.html">CGLV</a>&#160;</td><td class="memItemR
 
 </div>
 </div>
-<a id="aa1c4ea08f6fdf43399fe3ddd1f08a8e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1c4ea08f6fdf43399fe3ddd1f08a8e6">&#9670;&nbsp;</a></span>pp2vn()</h2>
+<a id="ad0a59678db5529a7a9ad12ca657a0c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0a59678db5529a7a9ad12ca657a0c1c">&#9670;&nbsp;</a></span>pp2vn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -840,26 +840,26 @@ const <a class="el" href="classCGLV.html">CGLV</a>&#160;</td><td class="memItemR
         <tr>
           <td class="memname"><a class="el" href="classCVect3.html">CVect3</a> pp2vn </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
           <td class="paramname"><em>pos1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
           <td class="paramname"><em>pos0</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ts</em>, </td>
+          <td class="paramname"><em>ts</em> = <code>1</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classCEarth.html">CEarth</a> *&#160;</td>
-          <td class="paramname"><em>pEth</em>&#160;</td>
+          <td class="paramname"><em>pEth</em> = <code>(<a class="el" href="classCEarth.html">CEarth</a>*)NULL</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -869,11 +869,11 @@ const <a class="el" href="classCGLV.html">CGLV</a>&#160;</td><td class="memItemR
       </table>
 </div><div class="memdoc">
 
-<p>Calculate average velocity between two position. </p>
+<p>Calculate average velocity via position difference. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pos1</td><td>End postion, under geodetic coordinate (i:lat(rad),j:lon(rad),k:hgt(m)) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pos0</td><td>Start postion, under geodetic coordinate (i:lat(rad),j:lon(rad),k:hgt(m)) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos1</td><td>End postion, under geodetic coordinate </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos0</td><td>Start postion, under geodetic coordinate </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">ts</td><td>Time span between two position(s) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">pEth</td><td>Earth parameter </td></tr>
   </table>

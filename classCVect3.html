@@ -210,9 +210,9 @@ Friends</h2></td></tr>
 <tr class="memitem:a5d60b28e5dc0589c755d118be8ba1156"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect3.html#a5d60b28e5dc0589c755d118be8ba1156">pos2Cen</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos)</td></tr>
 <tr class="memdesc:a5d60b28e5dc0589c755d118be8ba1156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get DCM of e-frame to n-frame from geodetic coordinate postion.  <a href="#a5d60b28e5dc0589c755d118be8ba1156">More...</a><br /></td></tr>
 <tr class="separator:a5d60b28e5dc0589c755d118be8ba1156"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ce3208bcd2913a86e75aad5f31988d9"><td class="memItemLeft" align="right" valign="top"><a id="a9ce3208bcd2913a86e75aad5f31988d9"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pp2vn</b> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos1, const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos0, double ts=1.0, <a class="el" href="classCEarth.html">CEarth</a> *pEth=(<a class="el" href="classCEarth.html">CEarth</a> *) NULL)</td></tr>
-<tr class="separator:a9ce3208bcd2913a86e75aad5f31988d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae91ae14972f9c23c2ea3afcbec74d680"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect3.html#ae91ae14972f9c23c2ea3afcbec74d680">pp2vn</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos1, const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos0, double ts=1, <a class="el" href="classCEarth.html">CEarth</a> *pEth=(<a class="el" href="classCEarth.html">CEarth</a> *) NULL)</td></tr>
+<tr class="memdesc:ae91ae14972f9c23c2ea3afcbec74d680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate average velocity via position difference.  <a href="#ae91ae14972f9c23c2ea3afcbec74d680">More...</a><br /></td></tr>
+<tr class="separator:ae91ae14972f9c23c2ea3afcbec74d680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4fac9ee7bd1e86a7f0756b7298b281c"><td class="memItemLeft" align="right" valign="top"><a id="ad4fac9ee7bd1e86a7f0756b7298b281c"></a>
 <a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MKQt</b> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;sR, const <a class="el" href="classCVect3.html">CVect3</a> &amp;tau)</td></tr>
 <tr class="separator:ad4fac9ee7bd1e86a7f0756b7298b281c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1362,6 +1362,66 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Power of vector </dd></dl>
+
+</div>
+</div>
+<a id="ae91ae14972f9c23c2ea3afcbec74d680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae91ae14972f9c23c2ea3afcbec74d680">&#9670;&nbsp;</a></span>pp2vn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCVect3.html">CVect3</a> pp2vn </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ts</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCEarth.html">CEarth</a> *&#160;</td>
+          <td class="paramname"><em>pEth</em> = <code>(<a class="el" href="classCEarth.html">CEarth</a>*)NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate average velocity via position difference. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos1</td><td>End postion, under geodetic coordinate </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos0</td><td>Start postion, under geodetic coordinate </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ts</td><td>Time span between two position(s) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pEth</td><td>Earth parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Velocity under n-frame(m/s) </dd></dl>
 
 </div>
 </div>
