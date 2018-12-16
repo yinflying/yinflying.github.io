@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sqrt',['sqrt',['../PSINS_8cpp.html#a7beb9ee21690890eee17a6dc6caa825b',1,'PSINS.cpp']]]
+  ['rv2q',['rv2q',['../PSINS_8cpp.html#a77fe1a5fd88688fe94c69438b11afad7',1,'PSINS.cpp']]]
 ];

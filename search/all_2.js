@@ -16,7 +16,7 @@ var searchData=
   ['convert',['convert',['../demo_8cpp.html#a327f9c3ee8cea828ef8d17070a538447',1,'demo.cpp']]],
   ['cptimer',['CPTimer',['../classCPTimer.html',1,'']]],
   ['cqeahrs',['CQEAHRS',['../classCQEAHRS.html',1,'']]],
-  ['cquat',['CQuat',['../classCQuat.html',1,'']]],
+  ['cquat',['CQuat',['../classCQuat.html',1,'CQuat'],['../classCQuat.html#a03e2feb26b651094bf39e9ea16c64544',1,'CQuat::CQuat(double qq0, double qq1=0.0, double qq2=0.0, double qq3=0.0)'],['../classCQuat.html#a53fda883b861355240b6346d48c567b4',1,'CQuat::CQuat(const double *pdata)']]],
   ['cravar',['CRAvar',['../classCRAvar.html',1,'']]],
   ['csins',['CSINS',['../classCSINS.html',1,'']]],
   ['csinsgpsod',['CSINSGPSOD',['../classCSINSGPSOD.html',1,'']]],

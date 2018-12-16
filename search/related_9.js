@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sqrt',['sqrt',['../classCVect3.html#a7beb9ee21690890eee17a6dc6caa825b',1,'CVect3']]]
+  ['rv2q',['rv2q',['../classCVect3.html#a77fe1a5fd88688fe94c69438b11afad7',1,'CVect3']]]
 ];
