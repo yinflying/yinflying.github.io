@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pow',['pow',['../classCVect3.html#a3549b2f6fc2118630e0058a9ad04fa43',1,'CVect3']]]
+  ['magyaw',['MagYaw',['../classCVect3.html#aa491d6dca64fa4fc403bc26952d8544a',1,'CVect3']]]
 ];

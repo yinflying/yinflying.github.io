@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['isnan',['IsNaN',['../PSINS_8cpp.html#a395df6f34a97823834676b2d5fa48858',1,'PSINS.cpp']]],
-  ['iszero',['IsZero',['../PSINS_8cpp.html#ac87e03abe7ebeebf96b27cf382ff0243',1,'PSINS.cpp']]],
-  ['iszeroxy',['IsZeroXY',['../PSINS_8cpp.html#a6d6ae5915243be093bf12163f8b3e4e4',1,'PSINS.cpp']]]
+  ['convert',['convert',['../demo_8cpp.html#a327f9c3ee8cea828ef8d17070a538447',1,'demo.cpp']]],
+  ['cvect3',['CVect3',['../classCVect3.html#a38520e5f23b24d0203047698840bfd5f',1,'CVect3::CVect3(double xyz)'],['../classCVect3.html#a40fd74f7fa8dd68f700801879930ecbe',1,'CVect3::CVect3(double xx, double yy, double zz)'],['../classCVect3.html#aa11bcb08424ce0994da3311daeca7fa8',1,'CVect3::CVect3(const double *pdata)'],['../classCVect3.html#a71e8260935354e60528b58f0d93bddb0',1,'CVect3::CVect3(const float *pdata)']]]
 ];
