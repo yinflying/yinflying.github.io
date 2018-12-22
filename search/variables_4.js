@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hur',['hur',['../classCGLV.html#a5f10fbade678a7c055a254c28fcb265d',1,'CGLV']]]
+  ['g0',['g0',['../classCGLV.html#aaffbbeed85104b7bb9a9d09263686eba',1,'CGLV']]]
 ];

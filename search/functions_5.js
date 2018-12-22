@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['magyaw',['MagYaw',['../PSINS_8cpp.html#aa140820e217d37cec59c614eab39c1a2',1,'PSINS.cpp']]],
-  ['main',['main',['../demo_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'demo.cpp']]]
+  ['inv',['inv',['../PSINS_8cpp.html#ab7afbcd6f5737fe385a5f2160e660ba8',1,'PSINS.cpp']]],
+  ['isnan',['IsNaN',['../PSINS_8cpp.html#a395df6f34a97823834676b2d5fa48858',1,'PSINS.cpp']]],
+  ['iszero',['IsZero',['../PSINS_8cpp.html#ac87e03abe7ebeebf96b27cf382ff0243',1,'PSINS.cpp']]],
+  ['iszeroxy',['IsZeroXY',['../PSINS_8cpp.html#a6d6ae5915243be093bf12163f8b3e4e4',1,'PSINS.cpp']]]
 ];

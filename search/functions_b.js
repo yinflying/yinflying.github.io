@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['setyaw',['SetYaw',['../classCQuat.html#a8c4df3c63551b6d1410c2904d9f994fe',1,'CQuat']]],
-  ['sign',['sign',['../PSINS_8cpp.html#aa0c85d8e663694e055c9dc47d9f9c231',1,'PSINS.cpp']]],
-  ['sqrt',['sqrt',['../PSINS_8cpp.html#a7beb9ee21690890eee17a6dc6caa825b',1,'PSINS.cpp']]]
+  ['rowmul',['RowMul',['../PSINS_8cpp.html#ac5142b05bb6950497999df0dc4d1de24',1,'PSINS.cpp']]],
+  ['rowmult',['RowMulT',['../PSINS_8cpp.html#a84338b9c293603b9409323649d89e462',1,'PSINS.cpp']]],
+  ['rv2q',['rv2q',['../PSINS_8cpp.html#a77fe1a5fd88688fe94c69438b11afad7',1,'PSINS.cpp']]]
 ];

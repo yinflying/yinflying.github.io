@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['e',['e',['../classCGLV.html#ae9fbd0f3a0f7133902f1a6c033ce95b1',1,'CGLV']]],
-  ['e2',['e2',['../classCGLV.html#a4bf22f45f9983074231a3ee7717a2804',1,'CGLV']]],
-  ['ep',['ep',['../classCGLV.html#a9d4e25b145519790a80724366db2fe38',1,'CGLV']]],
-  ['ep2',['ep2',['../classCGLV.html#a7d2e05335976febfe4ab6da38b9ce6bb',1,'CGLV']]]
+  ['dd',['dd',['../classCMat.html#ae3154dae713e39b0c4bbbe9eb53c50ac',1,'CMat']]],
+  ['deg',['deg',['../classCGLV.html#a8afdc27f37ff6b2462a2949a7e528891',1,'CGLV']]],
+  ['dph',['dph',['../classCGLV.html#a52c9b9a429060d1e05feebc52cb84166',1,'CGLV']]],
+  ['dphpsh',['dphpsh',['../classCGLV.html#ab7161f39f68400fea4e40da70068a944',1,'CGLV']]],
+  ['dps',['dps',['../classCGLV.html#a83c6b8722ca27ad40f71fe811f3c2ff2',1,'CGLV']]],
+  ['dpsh',['dpsh',['../classCGLV.html#a49b2fe052cb23af93cbc945f1c4eaa2d',1,'CGLV']]]
 ];

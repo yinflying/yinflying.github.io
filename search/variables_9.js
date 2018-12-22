@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['ppm',['ppm',['../classCGLV.html#a3a205c77124909d8a8fd74f2f74f9228',1,'CGLV']]],
-  ['ppmpsh',['ppmpsh',['../classCGLV.html#a97a2ee85622cceb3b4ff799eea9b18b8',1,'CGLV']]]
+  ['mg',['mg',['../classCGLV.html#a2d1eb88e857b5582daa8473ff4a06f35',1,'CGLV']]],
+  ['min',['min',['../classCGLV.html#a3ab98405658cb279157c44a7f304456a',1,'CGLV']]],
+  ['mpsh',['mpsh',['../classCGLV.html#a9235a224e93e1bff50818ec3df7e397a',1,'CGLV']]],
+  ['mpspsh',['mpspsh',['../classCGLV.html#a9015eb8e53af26e97db40fe89c06a4fc',1,'CGLV']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['k',['k',['../classCVect3.html#ac4c0274f2d5e8c8fab8c2a137ef88f6b',1,'CVect3']]]
+  ['j',['j',['../classCVect3.html#a47b5a65c6a21b2fec42469e6d49a9864',1,'CVect3']]]
 ];

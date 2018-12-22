@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['norm',['norm',['../PSINS_8cpp.html#aa53d798e9b288e277167877ecf44197c',1,'PSINS.cpp']]],
-  ['norm1',['norm1',['../PSINS_8cpp.html#aac8a59fa5934ec2bbbdded2521f16fd4',1,'PSINS.cpp']]],
-  ['norminf',['norminf',['../PSINS_8cpp.html#ab6f33f45656104285dc1191d7a749a05',1,'PSINS.cpp']]],
-  ['normlize',['normlize',['../PSINS_8cpp.html#ae3c5181dea7c7cdce2f7394dd0276841',1,'PSINS.cpp']]],
-  ['normxy',['normXY',['../PSINS_8cpp.html#a8c3bc357d4b019a7b56de43d4a2ef6f8',1,'PSINS.cpp']]]
+  ['m2att',['m2att',['../PSINS_8cpp.html#a52e3047b603e3f5fd7b1ee35d0639df5',1,'PSINS.cpp']]],
+  ['m2qua',['m2qua',['../PSINS_8cpp.html#a62eff0a0d6efe0a8ef76f5ff6b871dba',1,'PSINS.cpp']]],
+  ['magyaw',['MagYaw',['../PSINS_8cpp.html#aa140820e217d37cec59c614eab39c1a2',1,'PSINS.cpp']]],
+  ['main',['main',['../demo_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'demo.cpp']]]
 ];

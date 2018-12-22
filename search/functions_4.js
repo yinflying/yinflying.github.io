@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['isnan',['IsNaN',['../PSINS_8cpp.html#a395df6f34a97823834676b2d5fa48858',1,'PSINS.cpp']]],
-  ['iszero',['IsZero',['../PSINS_8cpp.html#ac87e03abe7ebeebf96b27cf382ff0243',1,'PSINS.cpp']]],
-  ['iszeroxy',['IsZeroXY',['../PSINS_8cpp.html#a6d6ae5915243be093bf12163f8b3e4e4',1,'PSINS.cpp']]]
+  ['getclm',['GetClm',['../classCMat.html#ab61d62d5fe9eb1d83af5009da5ddfe6e',1,'CMat']]],
+  ['getmat3',['GetMat3',['../classCMat.html#a49bd468e85a727661c5053a72a53a45c',1,'CMat']]],
+  ['getrow',['GetRow',['../classCMat.html#ae9eb47e38c616eb2658a1eb66c04b2a4',1,'CMat']]]
 ];

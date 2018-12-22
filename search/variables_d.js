@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['wie',['wie',['../classCGLV.html#aefd21c5204dbcf5776d31f3873356993',1,'CGLV']]]
+  ['ug',['ug',['../classCGLV.html#afc97cc454f36865a51946aa08aca6a49',1,'CGLV']]],
+  ['ugpsh',['ugpsh',['../classCGLV.html#ab6686b389def58dca6bb6c73435d05ad',1,'CGLV']]],
+  ['ugpshz',['ugpsHz',['../classCGLV.html#a183b98d7f49e7a41aae2cb7b68465b80',1,'CGLV']]]
 ];
