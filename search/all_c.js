@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['norm',['norm',['../classCVect3.html#aa53d798e9b288e277167877ecf44197c',1,'CVect3::norm()'],['../classCVect.html#a06e09d04e35260c6c0e63e1ee1710c4e',1,'CVect::norm()'],['../PSINS_8cpp.html#aa53d798e9b288e277167877ecf44197c',1,'norm(const CVect3 &amp;v):&#160;PSINS.cpp'],['../PSINS_8cpp.html#a06e09d04e35260c6c0e63e1ee1710c4e',1,'norm(const CVect &amp;v):&#160;PSINS.cpp']]],
-  ['norm1',['norm1',['../classCVect3.html#aac8a59fa5934ec2bbbdded2521f16fd4',1,'CVect3::norm1()'],['../classCMat.html#a2c83ebb10a18910527a4e2f9ef54d08c',1,'CMat::norm1()'],['../PSINS_8cpp.html#aac8a59fa5934ec2bbbdded2521f16fd4',1,'norm1(const CVect3 &amp;v):&#160;PSINS.cpp'],['../PSINS_8cpp.html#a2c83ebb10a18910527a4e2f9ef54d08c',1,'norm1(const CMat &amp;m):&#160;PSINS.cpp']]],
-  ['norminf',['norminf',['../classCVect3.html#ab6f33f45656104285dc1191d7a749a05',1,'CVect3::norminf()'],['../PSINS_8cpp.html#ab6f33f45656104285dc1191d7a749a05',1,'norminf():&#160;PSINS.cpp']]],
-  ['normlize',['normlize',['../classCQuat.html#ae3c5181dea7c7cdce2f7394dd0276841',1,'CQuat::normlize()'],['../PSINS_8cpp.html#ae3c5181dea7c7cdce2f7394dd0276841',1,'normlize():&#160;PSINS.cpp']]],
-  ['normxy',['normXY',['../classCVect3.html#a8c3bc357d4b019a7b56de43d4a2ef6f8',1,'CVect3::normXY()'],['../PSINS_8cpp.html#a8c3bc357d4b019a7b56de43d4a2ef6f8',1,'normXY():&#160;PSINS.cpp']]]
+  ['m2att',['m2att',['../classCVect3.html#a52e3047b603e3f5fd7b1ee35d0639df5',1,'CVect3::m2att()'],['../MathBase_8cpp.html#a52e3047b603e3f5fd7b1ee35d0639df5',1,'m2att(const CMat3 &amp;Cnb):&#160;MathBase.cpp'],['../MathBase_8h.html#a52e3047b603e3f5fd7b1ee35d0639df5',1,'m2att(const CMat3 &amp;Cnb):&#160;MathBase.cpp']]],
+  ['m2qua',['m2qua',['../classCMat3.html#a62eff0a0d6efe0a8ef76f5ff6b871dba',1,'CMat3::m2qua()'],['../MathBase_8cpp.html#a62eff0a0d6efe0a8ef76f5ff6b871dba',1,'m2qua(const CMat3 &amp;Cnb):&#160;MathBase.cpp'],['../MathBase_8h.html#a62eff0a0d6efe0a8ef76f5ff6b871dba',1,'m2qua(const CMat3 &amp;Cnb):&#160;MathBase.cpp']]],
+  ['magyaw',['MagYaw',['../classCVect3.html#aa140820e217d37cec59c614eab39c1a2',1,'CVect3::MagYaw()'],['../MathBase_8cpp.html#aa140820e217d37cec59c614eab39c1a2',1,'MagYaw(const CVect3 &amp;mag, const CVect3 &amp;att, double declination):&#160;MathBase.cpp'],['../MathBase_8h.html#aa491d6dca64fa4fc403bc26952d8544a',1,'MagYaw(const CVect3 &amp;mag, const CVect3 &amp;att, double declination=0):&#160;MathBase.cpp']]],
+  ['main',['main',['../demo_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'demo.cpp']]],
+  ['mathbase_2ecpp',['MathBase.cpp',['../MathBase_8cpp.html',1,'']]],
+  ['mathbase_2eh',['MathBase.h',['../MathBase_8h.html',1,'']]],
+  ['mg',['mg',['../classCGLV.html#a2d1eb88e857b5582daa8473ff4a06f35',1,'CGLV']]],
+  ['min',['min',['../classCGLV.html#a3ab98405658cb279157c44a7f304456a',1,'CGLV']]],
+  ['mpsh',['mpsh',['../classCGLV.html#a9235a224e93e1bff50818ec3df7e397a',1,'CGLV']]],
+  ['mpspsh',['mpspsh',['../classCGLV.html#a9015eb8e53af26e97db40fe89c06a4fc',1,'CGLV']]]
 ];

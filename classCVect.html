@@ -74,7 +74,7 @@ $(function() {
 <p>Multidimensional vector representation and operations.  
  <a href="classCVect.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="PSINS_8h_source.html">PSINS.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MathBase_8h_source.html">MathBase.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -84,9 +84,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab5d5d91ae4809622b878d8c7411ac901"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#ab5d5d91ae4809622b878d8c7411ac901">CVect</a> (int row0, double f)</td></tr>
 <tr class="memdesc:ab5d5d91ae4809622b878d8c7411ac901"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize column vector by same number.  <a href="#ab5d5d91ae4809622b878d8c7411ac901">More...</a><br /></td></tr>
 <tr class="separator:ab5d5d91ae4809622b878d8c7411ac901"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a626e4a3f663316c1b2b63df6425f6759"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a626e4a3f663316c1b2b63df6425f6759">CVect</a> (int row0, double f,...)</td></tr>
-<tr class="memdesc:a626e4a3f663316c1b2b63df6425f6759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize column vector by a set of number.  <a href="#a626e4a3f663316c1b2b63df6425f6759">More...</a><br /></td></tr>
-<tr class="separator:a626e4a3f663316c1b2b63df6425f6759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a858a1054f499e7986d98e4946492bfb5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a858a1054f499e7986d98e4946492bfb5">CVect</a> (int row0, double f, double f1,...)</td></tr>
+<tr class="memdesc:a858a1054f499e7986d98e4946492bfb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize column vector by a set of number(at least two)  <a href="#a858a1054f499e7986d98e4946492bfb5">More...</a><br /></td></tr>
+<tr class="separator:a858a1054f499e7986d98e4946492bfb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ca121869446399cbb5ee2378c61945"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#af6ca121869446399cbb5ee2378c61945">CVect</a> (int row0, const double *pf)</td></tr>
 <tr class="memdesc:af6ca121869446399cbb5ee2378c61945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize column vector by an array.  <a href="#af6ca121869446399cbb5ee2378c61945">More...</a><br /></td></tr>
 <tr class="separator:af6ca121869446399cbb5ee2378c61945"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -102,7 +102,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:aa0cd852d1eceb85cf2f009ce09e88952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52afc3452be676f7ae69abcd1c10a3f8"><td class="memItemLeft" align="right" valign="top"><a id="a52afc3452be676f7ae69abcd1c10a3f8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a52afc3452be676f7ae69abcd1c10a3f8">Set2</a> (double f,...)</td></tr>
-<tr class="memdesc:a52afc3452be676f7ae69abcd1c10a3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vector by a set of squared number. <br /></td></tr>
+<tr class="memdesc:a52afc3452be676f7ae69abcd1c10a3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vector elements by a set of squared number. <br /></td></tr>
 <tr class="separator:a52afc3452be676f7ae69abcd1c10a3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3656a7f29c8c4a2c46f31c326c3878c"><td class="memItemLeft" align="right" valign="top"><a id="aa3656a7f29c8c4a2c46f31c326c3878c"></a>
 <a class="el" href="classCVect.html">CVect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#aa3656a7f29c8c4a2c46f31c326c3878c">operator+</a> (const <a class="el" href="classCVect.html">CVect</a> &amp;v) const</td></tr>
@@ -148,16 +148,20 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a00c42c130e153de749fd25ddf5804043"><td class="memItemLeft" align="right" valign="top"><a id="a00c42c130e153de749fd25ddf5804043"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>row</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a00c42c130e153de749fd25ddf5804043">row</a></td></tr>
+<tr class="memdesc:a00c42c130e153de749fd25ddf5804043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of vector row(one of row or column must be 1) <br /></td></tr>
 <tr class="separator:a00c42c130e153de749fd25ddf5804043"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe70439be5f6a645489012fbb051433"><td class="memItemLeft" align="right" valign="top"><a id="a8fe70439be5f6a645489012fbb051433"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>clm</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a8fe70439be5f6a645489012fbb051433">clm</a></td></tr>
+<tr class="memdesc:a8fe70439be5f6a645489012fbb051433"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of vector column. <br /></td></tr>
 <tr class="separator:a8fe70439be5f6a645489012fbb051433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1dca28fa20a779839584907c68d66e8"><td class="memItemLeft" align="right" valign="top"><a id="ad1dca28fa20a779839584907c68d66e8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>rc</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#ad1dca28fa20a779839584907c68d66e8">rc</a></td></tr>
+<tr class="memdesc:ad1dca28fa20a779839584907c68d66e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of vector. <br /></td></tr>
 <tr class="separator:ad1dca28fa20a779839584907c68d66e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ae1727bba1d1ccd8b1c3976e4c0de78"><td class="memItemLeft" align="right" valign="top"><a id="a7ae1727bba1d1ccd8b1c3976e4c0de78"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>dd</b> [MMD]</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a7ae1727bba1d1ccd8b1c3976e4c0de78">dd</a> [MMD]</td></tr>
+<tr class="memdesc:a7ae1727bba1d1ccd8b1c3976e4c0de78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector data. <br /></td></tr>
 <tr class="separator:a7ae1727bba1d1ccd8b1c3976e4c0de78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -174,9 +178,9 @@ Friends</h2></td></tr>
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a06e09d04e35260c6c0e63e1ee1710c4e">norm</a> (const <a class="el" href="classCVect.html">CVect</a> &amp;v)</td></tr>
 <tr class="memdesc:a06e09d04e35260c6c0e63e1ee1710c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">2-norm of vector(Euclidean Distance) <br /></td></tr>
 <tr class="separator:a06e09d04e35260c6c0e63e1ee1710c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78c01d77c2ab915c7ea59a61e832f4a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCVect.html">CVect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a78c01d77c2ab915c7ea59a61e832f4a6">pow</a> (const <a class="el" href="classCVect.html">CVect</a> &amp;v, int k=2)</td></tr>
-<tr class="memdesc:a78c01d77c2ab915c7ea59a61e832f4a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The power of each element in the vector.  <a href="#a78c01d77c2ab915c7ea59a61e832f4a6">More...</a><br /></td></tr>
-<tr class="separator:a78c01d77c2ab915c7ea59a61e832f4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15828674e77f04faa0abcc8f7c89d0a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCVect.html">CVect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVect.html#a15828674e77f04faa0abcc8f7c89d0a1">pow</a> (const <a class="el" href="classCVect.html">CVect</a> &amp;v, int k)</td></tr>
+<tr class="memdesc:a15828674e77f04faa0abcc8f7c89d0a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The power of each element in the vector.  <a href="#a15828674e77f04faa0abcc8f7c89d0a1">More...</a><br /></td></tr>
+<tr class="separator:a15828674e77f04faa0abcc8f7c89d0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Multidimensional vector representation and operations. </p>
@@ -255,8 +259,8 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 </div>
 </div>
-<a id="a626e4a3f663316c1b2b63df6425f6759"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a626e4a3f663316c1b2b63df6425f6759">&#9670;&nbsp;</a></span>CVect() <span class="overload">[3/6]</span></h2>
+<a id="a858a1054f499e7986d98e4946492bfb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a858a1054f499e7986d98e4946492bfb5">&#9670;&nbsp;</a></span>CVect() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -276,6 +280,12 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>f1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em>&#160;</td>
         </tr>
@@ -287,7 +297,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
       </table>
 </div><div class="memdoc">
 
-<p>Initialize column vector by a set of number. </p>
+<p>Initialize column vector by a set of number(at least two) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">row0</td><td>Number of row </td></tr>
@@ -509,8 +519,8 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a78c01d77c2ab915c7ea59a61e832f4a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78c01d77c2ab915c7ea59a61e832f4a6">&#9670;&nbsp;</a></span>pow</h2>
+<a id="a15828674e77f04faa0abcc8f7c89d0a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15828674e77f04faa0abcc8f7c89d0a1">&#9670;&nbsp;</a></span>pow</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -528,7 +538,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>k</em> = <code>2</code>&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -556,8 +566,8 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>Algorithm/<a class="el" href="PSINS_8h_source.html">PSINS.h</a></li>
-<li>Algorithm/<a class="el" href="PSINS_8cpp.html">PSINS.cpp</a></li>
+<li>Algorithm/<a class="el" href="MathBase_8h_source.html">MathBase.h</a></li>
+<li>Algorithm/<a class="el" href="MathBase_8cpp.html">MathBase.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

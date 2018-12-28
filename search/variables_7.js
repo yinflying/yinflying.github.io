@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['j',['j',['../classCVect3.html#a47b5a65c6a21b2fec42469e6d49a9864',1,'CVect3']]]
+  ['hk',['Hk',['../classCKalman.html#a03941921139e43e0ef30b3ce9d31503d',1,'CKalman']]],
+  ['hur',['hur',['../classCGLV.html#a5f10fbade678a7c055a254c28fcb265d',1,'CGLV']]]
 ];

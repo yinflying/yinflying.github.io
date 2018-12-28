@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ug',['ug',['../classCGLV.html#afc97cc454f36865a51946aa08aca6a49',1,'CGLV']]],
-  ['ugpsh',['ugpsh',['../classCGLV.html#ab6686b389def58dca6bb6c73435d05ad',1,'CGLV']]],
-  ['ugpshz',['ugpsHz',['../classCGLV.html#a183b98d7f49e7a41aae2cb7b68465b80',1,'CGLV']]]
+  ['nq',['nq',['../classCKalman.html#a7e4d81d5b1d9e96123c4a8037eef4f15',1,'CKalman']]],
+  ['nr',['nr',['../classCKalman.html#af79dbc27f162b97c1cec7d647f324c25',1,'CKalman']]]
 ];

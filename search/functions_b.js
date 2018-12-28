@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['rowmul',['RowMul',['../PSINS_8cpp.html#ac5142b05bb6950497999df0dc4d1de24',1,'PSINS.cpp']]],
-  ['rowmult',['RowMulT',['../PSINS_8cpp.html#a84338b9c293603b9409323649d89e462',1,'PSINS.cpp']]],
-  ['rv2q',['rv2q',['../PSINS_8cpp.html#a77fe1a5fd88688fe94c69438b11afad7',1,'PSINS.cpp']]]
+  ['q2att',['q2att',['../MathBase_8cpp.html#ad2dd93d72d3fe1d8ced5bfe6a078721f',1,'q2att(const CQuat &amp;qnb):&#160;MathBase.cpp'],['../MathBase_8h.html#ad2dd93d72d3fe1d8ced5bfe6a078721f',1,'q2att(const CQuat &amp;qnb):&#160;MathBase.cpp']]],
+  ['q2mat',['q2mat',['../MathBase_8cpp.html#a6c2d667645611697956ef50205f2c0f8',1,'q2mat(const CQuat &amp;qnb):&#160;MathBase.cpp'],['../MathBase_8h.html#a6c2d667645611697956ef50205f2c0f8',1,'q2mat(const CQuat &amp;qnb):&#160;MathBase.cpp']]],
+  ['q2rv',['q2rv',['../MathBase_8cpp.html#a56b74ac1ca22d3c6faa031100be61084',1,'q2rv(const CQuat &amp;q):&#160;MathBase.cpp'],['../MathBase_8h.html#a56b74ac1ca22d3c6faa031100be61084',1,'q2rv(const CQuat &amp;q):&#160;MathBase.cpp']]]
 ];

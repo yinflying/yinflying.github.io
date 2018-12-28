@@ -74,7 +74,7 @@ $(function() {
 <p>Quaternion representation and operations.  
  <a href="classCQuat.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="PSINS_8h_source.html">PSINS.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MathBase_8h_source.html">MathBase.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -86,13 +86,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a53fda883b861355240b6346d48c567b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quaternion initialization by array.  <a href="#a53fda883b861355240b6346d48c567b4">More...</a><br /></td></tr>
 <tr class="separator:a53fda883b861355240b6346d48c567b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14ee4e00dd3874373bd2505954ab753d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCQuat.html">CQuat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCQuat.html#a14ee4e00dd3874373bd2505954ab753d">operator+</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;phi) const</td></tr>
-<tr class="memdesc:a14ee4e00dd3874373bd2505954ab753d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quaternion add rotation vector.  <a href="#a14ee4e00dd3874373bd2505954ab753d">More...</a><br /></td></tr>
+<tr class="memdesc:a14ee4e00dd3874373bd2505954ab753d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quaternion add rotation vector(Qac = Qab + phi_bc)  <a href="#a14ee4e00dd3874373bd2505954ab753d">More...</a><br /></td></tr>
 <tr class="separator:a14ee4e00dd3874373bd2505954ab753d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4765c1d73e324e6262d64e799f097f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCQuat.html">CQuat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCQuat.html#a4765c1d73e324e6262d64e799f097f0a">operator-</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;phi) const</td></tr>
-<tr class="memdesc:a4765c1d73e324e6262d64e799f097f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quaternion minus rotation vector.  <a href="#a4765c1d73e324e6262d64e799f097f0a">More...</a><br /></td></tr>
+<tr class="memdesc:a4765c1d73e324e6262d64e799f097f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quaternion minus rotation vector(Qac = Qab - phi_cb)  <a href="#a4765c1d73e324e6262d64e799f097f0a">More...</a><br /></td></tr>
 <tr class="separator:a4765c1d73e324e6262d64e799f097f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97fc95d39d7b6dedb3232f904335eeb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCQuat.html#a97fc95d39d7b6dedb3232f904335eeb2">operator-</a> (<a class="el" href="classCQuat.html">CQuat</a> &amp;quat) const</td></tr>
-<tr class="memdesc:a97fc95d39d7b6dedb3232f904335eeb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the angle difference between two quaternions.  <a href="#a97fc95d39d7b6dedb3232f904335eeb2">More...</a><br /></td></tr>
+<tr class="memdesc:a97fc95d39d7b6dedb3232f904335eeb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the angle difference between two quaternions(phi_ac = Qab - Qbc)  <a href="#a97fc95d39d7b6dedb3232f904335eeb2">More...</a><br /></td></tr>
 <tr class="separator:a97fc95d39d7b6dedb3232f904335eeb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a772c6ba6c22e293c00184ff016adff0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCQuat.html">CQuat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCQuat.html#a772c6ba6c22e293c00184ff016adff0e">operator*</a> (const <a class="el" href="classCQuat.html">CQuat</a> &amp;q) const</td></tr>
 <tr class="memdesc:a772c6ba6c22e293c00184ff016adff0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quaternion multiplication.  <a href="#a772c6ba6c22e293c00184ff016adff0e">More...</a><br /></td></tr>
@@ -240,7 +240,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Quaternion add rotation vector. </p>
+<p>Quaternion add rotation vector(Qac = Qab + phi_bc) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">phi</td><td>Rotation vector </td></tr>
@@ -267,7 +267,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Quaternion minus rotation vector. </p>
+<p>Quaternion minus rotation vector(Qac = Qab - phi_cb) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">phi</td><td>Rotation vector </td></tr>
@@ -294,7 +294,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the angle difference between two quaternions. </p>
+<p>Get the angle difference between two quaternions(phi_ac = Qab - Qbc) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">quat</td><td></td></tr>
@@ -402,8 +402,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>Algorithm/<a class="el" href="PSINS_8h_source.html">PSINS.h</a></li>
-<li>Algorithm/<a class="el" href="PSINS_8cpp.html">PSINS.cpp</a></li>
+<li>Algorithm/<a class="el" href="MathBase_8h_source.html">MathBase.h</a></li>
+<li>Algorithm/<a class="el" href="MathBase_8cpp.html">MathBase.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

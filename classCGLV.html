@@ -73,12 +73,12 @@ $(function() {
 <p><a class="el" href="classCGLV.html" title="CGLV(what does it mean?). ">CGLV</a>(what does it mean?).  
  <a href="classCGLV.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="PSINS_8h_source.html">PSINS.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MathBase_8h_source.html">MathBase.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4a35f6c096774a87508ec8895c6bcb21"><td class="memItemLeft" align="right" valign="top"><a id="a4a35f6c096774a87508ec8895c6bcb21"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>CGLV</b> (double <a class="el" href="classCGLV.html#a660c1957f1173f57f0fc9afefb3a54ff">Re</a>=6378137.0, double <a class="el" href="classCGLV.html#a5e46f2e46ea40553e18b9c11c6234d9b">f</a>=(1.0/298.257), double wie0=7.2921151467e-5, double g0=9.7803267714)</td></tr>
+<tr class="memitem:a4a35f6c096774a87508ec8895c6bcb21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCGLV.html#a4a35f6c096774a87508ec8895c6bcb21">CGLV</a> (double <a class="el" href="classCGLV.html#a660c1957f1173f57f0fc9afefb3a54ff">Re</a>=6378137.0, double <a class="el" href="classCGLV.html#a5e46f2e46ea40553e18b9c11c6234d9b">f</a>=(1.0/298.257), double wie0=7.2921151467e-5, double g0=9.7803267714)</td></tr>
+<tr class="memdesc:a4a35f6c096774a87508ec8895c6bcb21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the global constant.  <a href="#a4a35f6c096774a87508ec8895c6bcb21">More...</a><br /></td></tr>
 <tr class="separator:a4a35f6c096774a87508ec8895c6bcb21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -190,9 +190,61 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classCGLV.html" title="CGLV(what does it mean?). ">CGLV</a>(what does it mean?). </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
-<li>Algorithm/<a class="el" href="PSINS_8h_source.html">PSINS.h</a></li>
-<li>Algorithm/<a class="el" href="PSINS_8cpp.html">PSINS.cpp</a></li>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a4a35f6c096774a87508ec8895c6bcb21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a35f6c096774a87508ec8895c6bcb21">&#9670;&nbsp;</a></span>CGLV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CGLV::CGLV </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Re</em> = <code>6378137.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>f</em> = <code>(1.0/298.257)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>wie0</em> = <code>7.2921151467e-5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>g0</em> = <code>9.7803267714</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the global constant. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Re</td><td>Earth equatorial radius(m), default: 6378137.0 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">f</td><td>Earth oblateness, default: 1.0/298.257 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">wie0</td><td>Earth average rate of rotation angle(rad/s), default:7.2921151467e-5 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">g0</td><td>Earth gravity acceleration(m^2/s), default: 9.7803267714 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>Algorithm/<a class="el" href="MathBase_8h_source.html">MathBase.h</a></li>
+<li>Algorithm/<a class="el" href="MathBase_8cpp.html">MathBase.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
