@@ -77,7 +77,8 @@ $(function() {
 
 <p>PSINS(Precise Strapdown Inertial Navigation System) C++ alogrithm hearder file.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;float.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;PSINSBase.h&quot;</code><br />
+<code>#include &lt;float.h&gt;</code><br />
 <code>#include &lt;math.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
@@ -85,7 +86,6 @@ $(function() {
 <code>#include &lt;stdarg.h&gt;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
 <code>#include &lt;glog/logging.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="MathBase_8h_source.html">MathBase.h</a>&quot;</code><br />
 </div>
 <p><a href="PSINS_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -98,8 +98,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCVARn.html">CVARn</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html">CIMU</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inertial Measurement Unit Observation operations.  <a href="classCIMU.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html">CSINS</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">INS Navigation operations.  <a href="classCSINS.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIIR.html">CIIR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,8 +126,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPTimer.html">CPTimer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPSINSBoard.html">PSINSBoard</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -135,9 +135,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a9173fa8393b64189692439b510f2188a"><td class="memItemLeft" align="right" valign="top"><a id="a9173fa8393b64189692439b510f2188a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>PSINS_AHRS_MEMS</b></td></tr>
 <tr class="separator:a9173fa8393b64189692439b510f2188a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f00ed2acd8f1e86be54b55d44a57bb3"><td class="memItemLeft" align="right" valign="top"><a id="a1f00ed2acd8f1e86be54b55d44a57bb3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PSINS_LOW_GRADE_MEMS</b></td></tr>
-<tr class="separator:a1f00ed2acd8f1e86be54b55d44a57bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f1e92e818ea79fba4ab9507a6b5063d"><td class="memItemLeft" align="right" valign="top"><a id="a8f1e92e818ea79fba4ab9507a6b5063d"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>disp</b>(k,  nSec,  frq)&#160;&#160;&#160;if(k%(nSec*frq)==0) printf(&quot;%d\n&quot;, k/frq)</td></tr>
 <tr class="separator:a8f1e92e818ea79fba4ab9507a6b5063d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,9 +156,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a5b9e606cd9d3b859cbeb2d85108a1173"><td class="memItemLeft" align="right" valign="top"><a id="a5b9e606cd9d3b859cbeb2d85108a1173"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>_2PI</b>&#160;&#160;&#160;(2.0*PI)</td></tr>
 <tr class="separator:a5b9e606cd9d3b859cbeb2d85108a1173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e90326f249c0729ae683b2cfac087fd"><td class="memItemLeft" align="right" valign="top"><a id="a3e90326f249c0729ae683b2cfac087fd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>psinsassert</b>(b)&#160;&#160;&#160;{};</td></tr>
-<tr class="separator:a3e90326f249c0729ae683b2cfac087fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af948fd5aec6dad420f4bd2b86e2a095d"><td class="memItemLeft" align="right" valign="top"><a id="af948fd5aec6dad420f4bd2b86e2a095d"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>RAMAX</b>&#160;&#160;&#160;MMD</td></tr>
 <tr class="separator:af948fd5aec6dad420f4bd2b86e2a095d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,11 +183,11 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>diffYaw</b> (double
 <tr class="memitem:a453f5c9b9e902c72eb2039936c13aaac"><td class="memItemLeft" align="right" valign="top"><a id="a453f5c9b9e902c72eb2039936c13aaac"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>MKQt</b> (double sR, double tau)</td></tr>
 <tr class="separator:a453f5c9b9e902c72eb2039936c13aaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memItemLeft" align="right" valign="top"><a id="ae5d5ef61045c82a1b23a75057a57a39a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IMURFU</b> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, int nSamples, const char *str)</td></tr>
+<tr class="memitem:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSINS_8h.html#ae5d5ef61045c82a1b23a75057a57a39a">IMURFU</a> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, int nSamples, const char *str)</td></tr>
+<tr class="memdesc:ae5d5ef61045c82a1b23a75057a57a39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert differnt IMU coordinate to Right-Forward-Up('RFU')  <a href="#ae5d5ef61045c82a1b23a75057a57a39a">More...</a><br /></td></tr>
 <tr class="separator:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12babbbc96d031b855faada08897095e"><td class="memItemLeft" align="right" valign="top"><a id="a12babbbc96d031b855faada08897095e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IMURFU</b> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, <a class="el" href="classCVect3.html">CVect3</a> *pvm, int nSamples, const char *str)</td></tr>
+<tr class="memitem:a12babbbc96d031b855faada08897095e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSINS_8h.html#a12babbbc96d031b855faada08897095e">IMURFU</a> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, <a class="el" href="classCVect3.html">CVect3</a> *pvm, int nSamples, const char *str)</td></tr>
+<tr class="memdesc:a12babbbc96d031b855faada08897095e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert differnt IMU coordinate to Right-Forward-Up('RFU')  <a href="#a12babbbc96d031b855faada08897095e">More...</a><br /></td></tr>
 <tr class="separator:a12babbbc96d031b855faada08897095e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8731d5764c2ca00e5e0b73f5e710c43e"><td class="memItemLeft" align="right" valign="top"><a id="a8731d5764c2ca00e5e0b73f5e710c43e"></a>
 char *&#160;</td><td class="memItemRight" valign="bottom"><b>time2fname</b> (void)</td></tr>
@@ -204,7 +198,103 @@ char *&#160;</td><td class="memItemRight" valign="bottom"><b>time2fname</b> (voi
 <dl class="section author"><dt>Author</dt><dd>Gongmin Yan(Northwestern Polytechnical University, Xi'an, P.R.China) </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>17/02/2015, 19/07/2017, 11/12/2018 </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="ae5d5ef61045c82a1b23a75057a57a39a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d5ef61045c82a1b23a75057a57a39a">&#9670;&nbsp;</a></span>IMURFU() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMURFU </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert differnt IMU coordinate to Right-Forward-Up('RFU') </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pwm</td><td>Input and Output gyro or Accelerometer Measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nSamples</td><td>Number of the input measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>Input measurement coordinate type, three chars,e.g. 'RBF' (R:right, L:left, F:forward, B:back, U:up, D: Down) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a12babbbc96d031b855faada08897095e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12babbbc96d031b855faada08897095e">&#9670;&nbsp;</a></span>IMURFU() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMURFU </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pvm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert differnt IMU coordinate to Right-Forward-Up('RFU') </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pwm</td><td>Input and Output gyro Measurements </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pvm</td><td>Input and Output Accelerometer Measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nSamples</td><td>Number of input measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>Input measurement coordinate type, three chars,e.g. 'RBF' (R:right, L:left, F:forward, B:back, U:up, D: Down) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

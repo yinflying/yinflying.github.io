@@ -70,43 +70,234 @@ $(function() {
 <div class="title">CIMU Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Inertial Measurement Unit Observation operations.  
+ <a href="classCIMU.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="PSINS_8h_source.html">PSINS.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a"><td class="memItemLeft" align="right" valign="top"><a id="a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> (const <a class="el" href="classCVect3.html">CVect3</a> *pwm, const <a class="el" href="classCVect3.html">CVect3</a> *pvm, int nSamples)</td></tr>
+<tr class="memitem:a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a">Update</a> (const <a class="el" href="classCVect3.html">CVect3</a> *pwm, const <a class="el" href="classCVect3.html">CVect3</a> *pvm, int <a class="el" href="classCIMU.html#a831d167cccc730ffe723f70bf30b0737">nSamples</a>)</td></tr>
+<tr class="memdesc:a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update IMU observations using Multi-subsample algorithm.  <a href="#a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a">More...</a><br /></td></tr>
 <tr class="separator:a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a831d167cccc730ffe723f70bf30b0737"><td class="memItemLeft" align="right" valign="top"><a id="a831d167cccc730ffe723f70bf30b0737"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>nSamples</b></td></tr>
+<tr class="memitem:a831d167cccc730ffe723f70bf30b0737"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#a831d167cccc730ffe723f70bf30b0737">nSamples</a></td></tr>
+<tr class="memdesc:a831d167cccc730ffe723f70bf30b0737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of subsample.  <a href="#a831d167cccc730ffe723f70bf30b0737">More...</a><br /></td></tr>
 <tr class="separator:a831d167cccc730ffe723f70bf30b0737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b15739491abcef781109e11b25daef8"><td class="memItemLeft" align="right" valign="top"><a id="a2b15739491abcef781109e11b25daef8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>prefirst</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#a2b15739491abcef781109e11b25daef8">prefirst</a></td></tr>
+<tr class="memdesc:a2b15739491abcef781109e11b25daef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determinate whether the start of One-plus-previous sample. <br /></td></tr>
 <tr class="separator:a2b15739491abcef781109e11b25daef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80ac2fccfd81be5cf711eed325e6a321"><td class="memItemLeft" align="right" valign="top"><a id="a80ac2fccfd81be5cf711eed325e6a321"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>phim</b></td></tr>
-<tr class="separator:a80ac2fccfd81be5cf711eed325e6a321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac17e334ad694f28b1e2f2bb6878c97b1"><td class="memItemLeft" align="right" valign="top"><a id="ac17e334ad694f28b1e2f2bb6878c97b1"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dvbm</b></td></tr>
-<tr class="separator:ac17e334ad694f28b1e2f2bb6878c97b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9a7e3b19428eccc4f0ba00d4a0c381"><td class="memItemLeft" align="right" valign="top"><a id="a1b9a7e3b19428eccc4f0ba00d4a0c381"></a>
+BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#a1b9a7e3b19428eccc4f0ba00d4a0c381">onePlusPre</a></td></tr>
+<tr class="memdesc:a1b9a7e3b19428eccc4f0ba00d4a0c381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determinate whether to use One-plus-previous. <br /></td></tr>
+<tr class="separator:a1b9a7e3b19428eccc4f0ba00d4a0c381"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a1616910b6e55d2470d91a93fed30ff"><td class="memItemLeft" align="right" valign="top"><a id="a7a1616910b6e55d2470d91a93fed30ff"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wm_1</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#a7a1616910b6e55d2470d91a93fed30ff">wm_1</a></td></tr>
+<tr class="memdesc:a7a1616910b6e55d2470d91a93fed30ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last epoch attitude increment(gyro output) <br /></td></tr>
 <tr class="separator:a7a1616910b6e55d2470d91a93fed30ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9bc7b19064960ad0cbd81a563126328"><td class="memItemLeft" align="right" valign="top"><a id="ac9bc7b19064960ad0cbd81a563126328"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vm_1</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#ac9bc7b19064960ad0cbd81a563126328">vm_1</a></td></tr>
+<tr class="memdesc:ac9bc7b19064960ad0cbd81a563126328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last epoch velocity increment(Accelerometer output) <br /></td></tr>
 <tr class="separator:ac9bc7b19064960ad0cbd81a563126328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ac2fccfd81be5cf711eed325e6a321"><td class="memItemLeft" align="right" valign="top"><a id="a80ac2fccfd81be5cf711eed325e6a321"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#a80ac2fccfd81be5cf711eed325e6a321">phim</a></td></tr>
+<tr class="memdesc:a80ac2fccfd81be5cf711eed325e6a321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attitude increment(Equivalent rotation vector) <br /></td></tr>
+<tr class="separator:a80ac2fccfd81be5cf711eed325e6a321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17e334ad694f28b1e2f2bb6878c97b1"><td class="memItemLeft" align="right" valign="top"><a id="ac17e334ad694f28b1e2f2bb6878c97b1"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#ac17e334ad694f28b1e2f2bb6878c97b1">dvbm</a></td></tr>
+<tr class="memdesc:ac17e334ad694f28b1e2f2bb6878c97b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity increment(With sculled error correlation) <br /></td></tr>
+<tr class="separator:ac17e334ad694f28b1e2f2bb6878c97b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memItemLeft" align="right" valign="top"><a id="ae5d5ef61045c82a1b23a75057a57a39a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IMURFU</b> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, int nSamples, const char *str)</td></tr>
+<tr class="memitem:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#ae5d5ef61045c82a1b23a75057a57a39a">IMURFU</a> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, int <a class="el" href="classCIMU.html#a831d167cccc730ffe723f70bf30b0737">nSamples</a>, const char *str)</td></tr>
+<tr class="memdesc:ae5d5ef61045c82a1b23a75057a57a39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert differnt IMU coordinate to Right-Forward-Up('RFU')  <a href="#ae5d5ef61045c82a1b23a75057a57a39a">More...</a><br /></td></tr>
 <tr class="separator:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12babbbc96d031b855faada08897095e"><td class="memItemLeft" align="right" valign="top"><a id="a12babbbc96d031b855faada08897095e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IMURFU</b> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, <a class="el" href="classCVect3.html">CVect3</a> *pvm, int nSamples, const char *str)</td></tr>
+<tr class="memitem:a12babbbc96d031b855faada08897095e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCIMU.html#a12babbbc96d031b855faada08897095e">IMURFU</a> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, <a class="el" href="classCVect3.html">CVect3</a> *pvm, int <a class="el" href="classCIMU.html#a831d167cccc730ffe723f70bf30b0737">nSamples</a>, const char *str)</td></tr>
+<tr class="memdesc:a12babbbc96d031b855faada08897095e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert differnt IMU coordinate to Right-Forward-Up('RFU')  <a href="#a12babbbc96d031b855faada08897095e">More...</a><br /></td></tr>
 <tr class="separator:a12babbbc96d031b855faada08897095e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Inertial Measurement Unit Observation operations. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a">&#9670;&nbsp;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CIMU::Update </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pvm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSamples</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update IMU observations using Multi-subsample algorithm. </p>
+<p>When nSamples == 1, onePlusPre is true, IMU will update using one-plus-previous sample, onePlusPre is false, IMU will update without compensation. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pwm</td><td>Attitude increment(Gryo measurements) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pvm</td><td>Velocity increment(Accelerometer measurements) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nSamples</td><td>Number of subsample( 1:One-plus-previous sample or without compensation &gt;1: Muti-subsample,max subsample is 5) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ae5d5ef61045c82a1b23a75057a57a39a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d5ef61045c82a1b23a75057a57a39a">&#9670;&nbsp;</a></span>IMURFU <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMURFU </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert differnt IMU coordinate to Right-Forward-Up('RFU') </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pwm</td><td>Input and Output gyro or Accelerometer Measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nSamples</td><td>Number of the input measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>Input measurement coordinate type, three chars,e.g. 'RBF' (R:right, L:left, F:forward, B:back, U:up, D: Down) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a12babbbc96d031b855faada08897095e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12babbbc96d031b855faada08897095e">&#9670;&nbsp;</a></span>IMURFU <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMURFU </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pvm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert differnt IMU coordinate to Right-Forward-Up('RFU') </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pwm</td><td>Input and Output gyro Measurements </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pvm</td><td>Input and Output Accelerometer Measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nSamples</td><td>Number of input measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>Input measurement coordinate type, three chars,e.g. 'RBF' (R:right, L:left, F:forward, B:back, U:up, D: Down) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a831d167cccc730ffe723f70bf30b0737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a831d167cccc730ffe723f70bf30b0737">&#9670;&nbsp;</a></span>nSamples</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CIMU::nSamples</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of subsample. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classCIMU.html#a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a" title="Update IMU observations using Multi-subsample algorithm. ">CIMU::Update</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Algorithm/<a class="el" href="PSINS_8h_source.html">PSINS.h</a></li>
 <li>Algorithm/<a class="el" href="PSINS_8cpp.html">PSINS.cpp</a></li>

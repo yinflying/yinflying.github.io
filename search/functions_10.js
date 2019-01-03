@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['vn2dpos',['vn2dpos',['../classCEarth.html#ae8a93114869a871fe5bed420c2890dad',1,'CEarth']]],
-  ['vxyz2enu',['Vxyz2enu',['../MathBase_8cpp.html#a0eb1a5c92c3f7d2fb45962523faa2c04',1,'Vxyz2enu(const CVect3 &amp;Vxyz, const CVect3 &amp;pos):&#160;MathBase.cpp'],['../MathBase_8h.html#a0eb1a5c92c3f7d2fb45962523faa2c04',1,'Vxyz2enu(const CVect3 &amp;Vxyz, const CVect3 &amp;pos):&#160;MathBase.cpp']]]
+  ['update',['Update',['../classCKFApp.html#a7e777aed3b210485936ee53c9f90af2c',1,'CKFApp::Update()'],['../classCEarth.html#aba0bc282eb6724197b36d001480ddac3',1,'CEarth::Update()'],['../classCIMU.html#a0d2f1a6fe54f4e5994c9ce5e9ccf6f0a',1,'CIMU::Update()'],['../classCSINS.html#a1f1094c298feba79b992328abe6a884b',1,'CSINS::Update()'],['../classCIIR.html#a61211704be20338301baff5cad63bf92',1,'CIIR::Update()']]],
+  ['updown',['UpDown',['../MathBase_8cpp.html#a8191761055fc85af993a3179cc451c50',1,'UpDown(const CQuat &amp;q):&#160;MathBase.cpp'],['../MathBase_8h.html#a8191761055fc85af993a3179cc451c50',1,'UpDown(const CQuat &amp;q):&#160;MathBase.cpp']]]
 ];

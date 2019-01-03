@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['wie',['wie',['../classCGLV.html#aefd21c5204dbcf5776d31f3873356993',1,'CGLV::wie()'],['../classCEarth.html#ad7ef9cca8696c9d3c02a127099b9b538',1,'CEarth::wie()']]],
-  ['wnen',['wnen',['../classCEarth.html#a8985168bdb3804b9a763abb3a485819d',1,'CEarth']]],
-  ['wnie',['wnie',['../classCEarth.html#a623d9b9f811e1a1b96ce11581be36667',1,'CEarth']]],
-  ['wnin',['wnin',['../classCEarth.html#aa0eee22925f22fd5b58ab74b95e89a2c',1,'CEarth']]]
+  ['vb',['vb',['../classCSINS.html#a742a1e07b49aecaae5d75b7d717e1cfc',1,'CSINS']]],
+  ['velmax',['velMax',['../classCSINS.html#a358f0ab81ce45dde8f9695f429d02c0b',1,'CSINS']]],
+  ['vm_5f1',['vm_1',['../classCIMU.html#ac9bc7b19064960ad0cbd81a563126328',1,'CIMU']]],
+  ['vn',['vn',['../classCSINS.html#a02c6a9713bd3ec2a4e0f5a28bac13a0c',1,'CSINS::vn()'],['../classCEarth.html#ae52268840bb8f5b3e650c62c97211ed5',1,'CEarth::vn()']]],
+  ['vn2dpos',['vn2dpos',['../classCEarth.html#ae8a93114869a871fe5bed420c2890dad',1,'CEarth']]],
+  ['vnl',['vnL',['../classCSINS.html#a1bae49abafda8ff1084f35fee1c5999d',1,'CSINS']]],
+  ['vxyz2enu',['Vxyz2enu',['../classCVect3.html#a0eb1a5c92c3f7d2fb45962523faa2c04',1,'CVect3']]]
 ];

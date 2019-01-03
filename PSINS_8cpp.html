@@ -95,11 +95,11 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memItemLeft" align="right" valign="top"><a id="ae5d5ef61045c82a1b23a75057a57a39a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IMURFU</b> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, int nSamples, const char *str)</td></tr>
+<tr class="memitem:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSINS_8cpp.html#ae5d5ef61045c82a1b23a75057a57a39a">IMURFU</a> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, int nSamples, const char *str)</td></tr>
+<tr class="memdesc:ae5d5ef61045c82a1b23a75057a57a39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert differnt IMU coordinate to Right-Forward-Up('RFU')  <a href="#ae5d5ef61045c82a1b23a75057a57a39a">More...</a><br /></td></tr>
 <tr class="separator:ae5d5ef61045c82a1b23a75057a57a39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12babbbc96d031b855faada08897095e"><td class="memItemLeft" align="right" valign="top"><a id="a12babbbc96d031b855faada08897095e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IMURFU</b> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, <a class="el" href="classCVect3.html">CVect3</a> *pvm, int nSamples, const char *str)</td></tr>
+<tr class="memitem:a12babbbc96d031b855faada08897095e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSINS_8cpp.html#a12babbbc96d031b855faada08897095e">IMURFU</a> (<a class="el" href="classCVect3.html">CVect3</a> *pwm, <a class="el" href="classCVect3.html">CVect3</a> *pvm, int nSamples, const char *str)</td></tr>
+<tr class="memdesc:a12babbbc96d031b855faada08897095e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert differnt IMU coordinate to Right-Forward-Up('RFU')  <a href="#a12babbbc96d031b855faada08897095e">More...</a><br /></td></tr>
 <tr class="separator:a12babbbc96d031b855faada08897095e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8731d5764c2ca00e5e0b73f5e710c43e"><td class="memItemLeft" align="right" valign="top"><a id="a8731d5764c2ca00e5e0b73f5e710c43e"></a>
 char *&#160;</td><td class="memItemRight" valign="bottom"><b>time2fname</b> (void)</td></tr>
@@ -122,7 +122,103 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>MKQt</b> (double sR
 <dl class="section author"><dt>Author</dt><dd>Yan GongMing </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2018-12-13 </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="ae5d5ef61045c82a1b23a75057a57a39a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d5ef61045c82a1b23a75057a57a39a">&#9670;&nbsp;</a></span>IMURFU() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMURFU </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert differnt IMU coordinate to Right-Forward-Up('RFU') </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pwm</td><td>Input and Output gyro or Accelerometer Measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nSamples</td><td>Number of the input measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>Input measurement coordinate type, three chars,e.g. 'RBF' (R:right, L:left, F:forward, B:back, U:up, D: Down) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a12babbbc96d031b855faada08897095e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12babbbc96d031b855faada08897095e">&#9670;&nbsp;</a></span>IMURFU() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IMURFU </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pvm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert differnt IMU coordinate to Right-Forward-Up('RFU') </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pwm</td><td>Input and Output gyro Measurements </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pvm</td><td>Input and Output Accelerometer Measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nSamples</td><td>Number of input measurements </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>Input measurement coordinate type, three chars,e.g. 'RBF' (R:right, L:left, F:forward, B:back, U:up, D: Down) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

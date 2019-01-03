@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['a',['a',['../classCEarth.html#ac350d7903e89b8e04ffe4112e7dcda9a',1,'CEarth']]]
+  ['_5fbetaacc',['_betaAcc',['../classCSINS.html#a95026163c348eb201949003e7e371461',1,'CSINS']]],
+  ['_5fbetagyro',['_betaGyro',['../classCSINS.html#a0f4f783fbbabbdfb269fbdb74bcde2c8',1,'CSINS']]]
 ];

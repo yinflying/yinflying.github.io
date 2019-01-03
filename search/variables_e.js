@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['pgn',['pgn',['../classCEarth.html#a4c6470df2e8eb19e56f626cc056bb726',1,'CEarth']]],
-  ['pk',['Pk',['../classCKalman.html#af4fa81f828c45a920c08076b092bc43a',1,'CKalman']]],
-  ['pos',['pos',['../classCEarth.html#a1bfa03efc997f5558a26456f24cd3bf2',1,'CEarth']]],
-  ['ppm',['ppm',['../classCGLV.html#a3a205c77124909d8a8fd74f2f74f9228',1,'CGLV']]],
-  ['ppmpsh',['ppmpsh',['../classCGLV.html#a97a2ee85622cceb3b4ff799eea9b18b8',1,'CGLV']]]
+  ['nq',['nq',['../classCKalman.html#a7e4d81d5b1d9e96123c4a8037eef4f15',1,'CKalman']]],
+  ['nr',['nr',['../classCKalman.html#af79dbc27f162b97c1cec7d647f324c25',1,'CKalman']]],
+  ['nsamples',['nSamples',['../classCIMU.html#a831d167cccc730ffe723f70bf30b0737',1,'CIMU']]],
+  ['nts',['nts',['../classCSINS.html#a7c7ba2a1d13ef87e3b290df08bde1a8d',1,'CSINS']]]
 ];

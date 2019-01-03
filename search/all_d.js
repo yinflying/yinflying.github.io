@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['norm',['norm',['../classCVect3.html#aa53d798e9b288e277167877ecf44197c',1,'CVect3::norm()'],['../classCVect.html#a06e09d04e35260c6c0e63e1ee1710c4e',1,'CVect::norm()'],['../MathBase_8cpp.html#aa53d798e9b288e277167877ecf44197c',1,'norm(const CVect3 &amp;v):&#160;MathBase.cpp'],['../MathBase_8cpp.html#a06e09d04e35260c6c0e63e1ee1710c4e',1,'norm(const CVect &amp;v):&#160;MathBase.cpp'],['../MathBase_8h.html#aa53d798e9b288e277167877ecf44197c',1,'norm(const CVect3 &amp;v):&#160;MathBase.cpp'],['../MathBase_8h.html#a06e09d04e35260c6c0e63e1ee1710c4e',1,'norm(const CVect &amp;v):&#160;MathBase.cpp']]],
-  ['norm1',['norm1',['../classCVect3.html#aac8a59fa5934ec2bbbdded2521f16fd4',1,'CVect3::norm1()'],['../classCMat.html#a2c83ebb10a18910527a4e2f9ef54d08c',1,'CMat::norm1()'],['../MathBase_8cpp.html#aac8a59fa5934ec2bbbdded2521f16fd4',1,'norm1(const CVect3 &amp;v):&#160;MathBase.cpp'],['../MathBase_8cpp.html#a2c83ebb10a18910527a4e2f9ef54d08c',1,'norm1(const CMat &amp;m):&#160;MathBase.cpp'],['../MathBase_8h.html#aac8a59fa5934ec2bbbdded2521f16fd4',1,'norm1(const CVect3 &amp;v):&#160;MathBase.cpp'],['../MathBase_8h.html#a2c83ebb10a18910527a4e2f9ef54d08c',1,'norm1(const CMat &amp;m):&#160;MathBase.cpp']]],
-  ['norminf',['norminf',['../classCVect3.html#ab6f33f45656104285dc1191d7a749a05',1,'CVect3::norminf()'],['../MathBase_8cpp.html#ab6f33f45656104285dc1191d7a749a05',1,'norminf(const CVect3 &amp;v):&#160;MathBase.cpp'],['../MathBase_8h.html#ab6f33f45656104285dc1191d7a749a05',1,'norminf(const CVect3 &amp;v):&#160;MathBase.cpp']]],
-  ['normlize',['normlize',['../classCQuat.html#ae3c5181dea7c7cdce2f7394dd0276841',1,'CQuat::normlize()'],['../MathBase_8cpp.html#ae3c5181dea7c7cdce2f7394dd0276841',1,'normlize(CQuat *q):&#160;MathBase.cpp'],['../MathBase_8h.html#ae3c5181dea7c7cdce2f7394dd0276841',1,'normlize(CQuat *q):&#160;MathBase.cpp']]],
-  ['normxy',['normXY',['../classCVect3.html#a8c3bc357d4b019a7b56de43d4a2ef6f8',1,'CVect3::normXY()'],['../MathBase_8cpp.html#a8c3bc357d4b019a7b56de43d4a2ef6f8',1,'normXY(const CVect3 &amp;v):&#160;MathBase.cpp'],['../MathBase_8h.html#a8c3bc357d4b019a7b56de43d4a2ef6f8',1,'normXY(const CVect3 &amp;v):&#160;MathBase.cpp']]],
-  ['nq',['nq',['../classCKalman.html#a7e4d81d5b1d9e96123c4a8037eef4f15',1,'CKalman']]],
-  ['nr',['nr',['../classCKalman.html#af79dbc27f162b97c1cec7d647f324c25',1,'CKalman']]]
+  ['m2att',['m2att',['../classCVect3.html#a52e3047b603e3f5fd7b1ee35d0639df5',1,'CVect3']]],
+  ['m2qua',['m2qua',['../classCMat3.html#a62eff0a0d6efe0a8ef76f5ff6b871dba',1,'CMat3']]],
+  ['magyaw',['MagYaw',['../classCVect3.html#aa140820e217d37cec59c614eab39c1a2',1,'CVect3']]],
+  ['main',['main',['../demo_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'demo.cpp']]],
+  ['mg',['mg',['../classCGLV.html#a2d1eb88e857b5582daa8473ff4a06f35',1,'CGLV']]],
+  ['min',['min',['../classCGLV.html#a3ab98405658cb279157c44a7f304456a',1,'CGLV']]],
+  ['mpsh',['mpsh',['../classCGLV.html#a9235a224e93e1bff50818ec3df7e397a',1,'CGLV']]],
+  ['mpspsh',['mpspsh',['../classCGLV.html#a9015eb8e53af26e97db40fe89c06a4fc',1,'CGLV']]],
+  ['mpvcnb',['MpvCnb',['../classCSINS.html#a60d06fbcb3a78e2f940de872ccebca1f',1,'CSINS']]]
 ];

@@ -69,23 +69,28 @@ $(function() {
 <div class="title">CSINS Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>INS Navigation operations.  
+ <a href="classCSINS.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="PSINS_8h_source.html">PSINS.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3c185e5cff1a144348b6a67b4ca51260"><td class="memItemLeft" align="right" valign="top"><a id="a3c185e5cff1a144348b6a67b4ca51260"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>CSINS</b> (const <a class="el" href="classCQuat.html">CQuat</a> &amp;qnb0=qI, const <a class="el" href="classCVect3.html">CVect3</a> &amp;vn0=O31, const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos0=O31, double tk0=0.0)</td></tr>
+<tr class="memitem:a3c185e5cff1a144348b6a67b4ca51260"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a3c185e5cff1a144348b6a67b4ca51260">CSINS</a> (const <a class="el" href="classCQuat.html">CQuat</a> &amp;qnb0=qI, const <a class="el" href="classCVect3.html">CVect3</a> &amp;vn0=O31, const <a class="el" href="classCVect3.html">CVect3</a> &amp;pos0=O31, double tk0=0.0)</td></tr>
+<tr class="memdesc:a3c185e5cff1a144348b6a67b4ca51260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize attitude, velocity and position.  <a href="#a3c185e5cff1a144348b6a67b4ca51260">More...</a><br /></td></tr>
 <tr class="separator:a3c185e5cff1a144348b6a67b4ca51260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8794a8e720053356554ee2e7248b4088"><td class="memItemLeft" align="right" valign="top"><a id="a8794a8e720053356554ee2e7248b4088"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTauGA</b> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;tauG, const <a class="el" href="classCVect3.html">CVect3</a> &amp;tauA)</td></tr>
+<tr class="memitem:a8794a8e720053356554ee2e7248b4088"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a8794a8e720053356554ee2e7248b4088">SetTauGA</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;tauG, const <a class="el" href="classCVect3.html">CVect3</a> &amp;tauA)</td></tr>
+<tr class="memdesc:a8794a8e720053356554ee2e7248b4088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Gryo&amp;Acc correlation time of first-order Gauss-Markov stochastic model.  <a href="#a8794a8e720053356554ee2e7248b4088">More...</a><br /></td></tr>
 <tr class="separator:a8794a8e720053356554ee2e7248b4088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f1094c298feba79b992328abe6a884b"><td class="memItemLeft" align="right" valign="top"><a id="a1f1094c298feba79b992328abe6a884b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> (const <a class="el" href="classCVect3.html">CVect3</a> *pwm, const <a class="el" href="classCVect3.html">CVect3</a> *pvm, int nSamples, double ts)</td></tr>
+<tr class="memitem:a1f1094c298feba79b992328abe6a884b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a1f1094c298feba79b992328abe6a884b">Update</a> (const <a class="el" href="classCVect3.html">CVect3</a> *pwm, const <a class="el" href="classCVect3.html">CVect3</a> *pvm, int nSamples, double <a class="el" href="classCSINS.html#ad04daedd08c13b9707d36064721131f5">ts</a>)</td></tr>
+<tr class="memdesc:a1f1094c298feba79b992328abe6a884b"><td class="mdescLeft">&#160;</td><td class="mdescRight">INS Navigation solution update.  <a href="#a1f1094c298feba79b992328abe6a884b">More...</a><br /></td></tr>
 <tr class="separator:a1f1094c298feba79b992328abe6a884b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72629b2adcc58da836a56d92ad61cb8a"><td class="memItemLeft" align="right" valign="top"><a id="a72629b2adcc58da836a56d92ad61cb8a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Extrap</b> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;wm=O31, const <a class="el" href="classCVect3.html">CVect3</a> &amp;vm=O31, double ts=0.0)</td></tr>
+<tr class="memitem:a72629b2adcc58da836a56d92ad61cb8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a72629b2adcc58da836a56d92ad61cb8a">Extrap</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;wm=O31, const <a class="el" href="classCVect3.html">CVect3</a> &amp;vm=O31, double <a class="el" href="classCSINS.html#ad04daedd08c13b9707d36064721131f5">ts</a>=0.0)</td></tr>
+<tr class="memdesc:a72629b2adcc58da836a56d92ad61cb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">INS fast extrapolation using 1 Gyro&amp;Acc sample.  <a href="#a72629b2adcc58da836a56d92ad61cb8a">More...</a><br /></td></tr>
 <tr class="separator:a72629b2adcc58da836a56d92ad61cb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84c1a841c9e2cf5995d4e17cb54532f0"><td class="memItemLeft" align="right" valign="top"><a id="a84c1a841c9e2cf5995d4e17cb54532f0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>lever</b> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;dL=O31)</td></tr>
+<tr class="memitem:a84c1a841c9e2cf5995d4e17cb54532f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a84c1a841c9e2cf5995d4e17cb54532f0">lever</a> (const <a class="el" href="classCVect3.html">CVect3</a> &amp;dL=O31)</td></tr>
+<tr class="memdesc:a84c1a841c9e2cf5995d4e17cb54532f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set.  <a href="#a84c1a841c9e2cf5995d4e17cb54532f0">More...</a><br /></td></tr>
 <tr class="separator:a84c1a841c9e2cf5995d4e17cb54532f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad1beb02b6723ffa8dfa5111c7bd342f"><td class="memItemLeft" align="right" valign="top"><a id="aad1beb02b6723ffa8dfa5111c7bd342f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>etm</b> (void)</td></tr>
@@ -94,94 +99,124 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>etm</b> (void)</td></
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad04daedd08c13b9707d36064721131f5"><td class="memItemLeft" align="right" valign="top"><a id="ad04daedd08c13b9707d36064721131f5"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>ts</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#ad04daedd08c13b9707d36064721131f5">ts</a></td></tr>
+<tr class="memdesc:ad04daedd08c13b9707d36064721131f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subsampling interval(sec) <br /></td></tr>
 <tr class="separator:ad04daedd08c13b9707d36064721131f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c7ba2a1d13ef87e3b290df08bde1a8d"><td class="memItemLeft" align="right" valign="top"><a id="a7c7ba2a1d13ef87e3b290df08bde1a8d"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>nts</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a7c7ba2a1d13ef87e3b290df08bde1a8d">nts</a></td></tr>
+<tr class="memdesc:a7c7ba2a1d13ef87e3b290df08bde1a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sampling interval, nSamples*ts(sec) <br /></td></tr>
 <tr class="separator:a7c7ba2a1d13ef87e3b290df08bde1a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74d8317b25fd98f494753a7fdfacafed"><td class="memItemLeft" align="right" valign="top"><a id="a74d8317b25fd98f494753a7fdfacafed"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>tk</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a74d8317b25fd98f494753a7fdfacafed">tk</a></td></tr>
+<tr class="memdesc:a74d8317b25fd98f494753a7fdfacafed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current Time(sec) <br /></td></tr>
 <tr class="separator:a74d8317b25fd98f494753a7fdfacafed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358f0ab81ce45dde8f9695f429d02c0b"><td class="memItemLeft" align="right" valign="top"><a id="a358f0ab81ce45dde8f9695f429d02c0b"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>velMax</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a358f0ab81ce45dde8f9695f429d02c0b">velMax</a></td></tr>
+<tr class="memdesc:a358f0ab81ce45dde8f9695f429d02c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity upper bound. <br /></td></tr>
 <tr class="separator:a358f0ab81ce45dde8f9695f429d02c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d526b7e91a94323fb29b1f96bb2746b"><td class="memItemLeft" align="right" valign="top"><a id="a8d526b7e91a94323fb29b1f96bb2746b"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>hgtMin</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a8d526b7e91a94323fb29b1f96bb2746b">hgtMin</a></td></tr>
+<tr class="memdesc:a8d526b7e91a94323fb29b1f96bb2746b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Height lower bound. <br /></td></tr>
 <tr class="separator:a8d526b7e91a94323fb29b1f96bb2746b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf28a1228ea80e8be742eda18b54212a"><td class="memItemLeft" align="right" valign="top"><a id="acf28a1228ea80e8be742eda18b54212a"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>hgtMax</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#acf28a1228ea80e8be742eda18b54212a">hgtMax</a></td></tr>
+<tr class="memdesc:acf28a1228ea80e8be742eda18b54212a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Height uppoer bound. <br /></td></tr>
 <tr class="separator:acf28a1228ea80e8be742eda18b54212a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e5764a46602eca44a3aa0953c634533"><td class="memItemLeft" align="right" valign="top"><a id="a4e5764a46602eca44a3aa0953c634533"></a>
-<a class="el" href="classCEarth.html">CEarth</a>&#160;</td><td class="memItemRight" valign="bottom"><b>eth</b></td></tr>
+<a class="el" href="classCEarth.html">CEarth</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a4e5764a46602eca44a3aa0953c634533">eth</a></td></tr>
+<tr class="memdesc:a4e5764a46602eca44a3aa0953c634533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Earth related parameters. <br /></td></tr>
 <tr class="separator:a4e5764a46602eca44a3aa0953c634533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd38ee5863aed00472122160a7f8e50a"><td class="memItemLeft" align="right" valign="top"><a id="abd38ee5863aed00472122160a7f8e50a"></a>
-<a class="el" href="classCIMU.html">CIMU</a>&#160;</td><td class="memItemRight" valign="bottom"><b>imu</b></td></tr>
+<a class="el" href="classCIMU.html">CIMU</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#abd38ee5863aed00472122160a7f8e50a">imu</a></td></tr>
+<tr class="memdesc:abd38ee5863aed00472122160a7f8e50a"><td class="mdescLeft">&#160;</td><td class="mdescRight">IMU related parameters. <br /></td></tr>
 <tr class="separator:abd38ee5863aed00472122160a7f8e50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a413efe0044150735059e812017f2fa57"><td class="memItemLeft" align="right" valign="top"><a id="a413efe0044150735059e812017f2fa57"></a>
-<a class="el" href="classCQuat.html">CQuat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>qnb</b></td></tr>
+<a class="el" href="classCQuat.html">CQuat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a413efe0044150735059e812017f2fa57">qnb</a></td></tr>
+<tr class="memdesc:a413efe0044150735059e812017f2fa57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current attitude in quaternion( <img class="formulaInl" alt="$ q^n_b $" src="form_10.png"/>) <br /></td></tr>
 <tr class="separator:a413efe0044150735059e812017f2fa57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93980713507525b1152e105923fa07f9"><td class="memItemLeft" align="right" valign="top"><a id="a93980713507525b1152e105923fa07f9"></a>
-<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Cnb</b></td></tr>
+<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a93980713507525b1152e105923fa07f9">Cnb</a></td></tr>
+<tr class="memdesc:a93980713507525b1152e105923fa07f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current attitude in DCM( <img class="formulaInl" alt="$ C^n_b $" src="form_11.png"/>) <br /></td></tr>
 <tr class="separator:a93980713507525b1152e105923fa07f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0660d0cf04367140ece4c70f127d3a04"><td class="memItemLeft" align="right" valign="top"><a id="a0660d0cf04367140ece4c70f127d3a04"></a>
-<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Cnb0</b></td></tr>
+<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a0660d0cf04367140ece4c70f127d3a04">Cnb0</a></td></tr>
+<tr class="memdesc:a0660d0cf04367140ece4c70f127d3a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attitude before update(DCM, <img class="formulaInl" alt="$ C^n_b(-) $" src="form_12.png"/>) <br /></td></tr>
 <tr class="separator:a0660d0cf04367140ece4c70f127d3a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d1054c5fe5a12fed94b2f2698a52b9e"><td class="memItemLeft" align="right" valign="top"><a id="a8d1054c5fe5a12fed94b2f2698a52b9e"></a>
-<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Cbn</b></td></tr>
+<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a8d1054c5fe5a12fed94b2f2698a52b9e">Cbn</a></td></tr>
+<tr class="memdesc:a8d1054c5fe5a12fed94b2f2698a52b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current attitude in DCM( <img class="formulaInl" alt="$ C^b_n $" src="form_13.png"/>) <br /></td></tr>
 <tr class="separator:a8d1054c5fe5a12fed94b2f2698a52b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a437c2b07e867938ec148e01757345043"><td class="memItemLeft" align="right" valign="top"><a id="a437c2b07e867938ec148e01757345043"></a>
-<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Kg</b></td></tr>
+<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a437c2b07e867938ec148e01757345043">Kg</a></td></tr>
+<tr class="memdesc:a437c2b07e867938ec148e01757345043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gryo calibration factor matrix(Kg = I - dKg) <br /></td></tr>
 <tr class="separator:a437c2b07e867938ec148e01757345043"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1f6299c40d149e7b1c09692f4b63c8"><td class="memItemLeft" align="right" valign="top"><a id="a1c1f6299c40d149e7b1c09692f4b63c8"></a>
-<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Ka</b></td></tr>
+<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a1c1f6299c40d149e7b1c09692f4b63c8">Ka</a></td></tr>
+<tr class="memdesc:a1c1f6299c40d149e7b1c09692f4b63c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accelerometer calibration factor matrix(Ka = I - dKa) <br /></td></tr>
 <tr class="separator:a1c1f6299c40d149e7b1c09692f4b63c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20dc7c90b511d58bbf5388bd5abb49ef"><td class="memItemLeft" align="right" valign="top"><a id="a20dc7c90b511d58bbf5388bd5abb49ef"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wib</b></td></tr>
-<tr class="separator:a20dc7c90b511d58bbf5388bd5abb49ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc4b10935840f8df3043837875b56c2e"><td class="memItemLeft" align="right" valign="top"><a id="adc4b10935840f8df3043837875b56c2e"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fb</b></td></tr>
-<tr class="separator:adc4b10935840f8df3043837875b56c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026f8d67f03c2bf60a3b8e958418aaa0"><td class="memItemLeft" align="right" valign="top"><a id="a026f8d67f03c2bf60a3b8e958418aaa0"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fn</b></td></tr>
-<tr class="separator:a026f8d67f03c2bf60a3b8e958418aaa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ab5d315825ba9de6f94167ec2ca2a43"><td class="memItemLeft" align="right" valign="top"><a id="a9ab5d315825ba9de6f94167ec2ca2a43"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>an</b></td></tr>
-<tr class="separator:a9ab5d315825ba9de6f94167ec2ca2a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dff03bf1b837bf2a085f7b08fe527ba"><td class="memItemLeft" align="right" valign="top"><a id="a9dff03bf1b837bf2a085f7b08fe527ba"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>web</b></td></tr>
-<tr class="separator:a9dff03bf1b837bf2a085f7b08fe527ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7abefd145abcfd36cdf597a3f9e0cb5d"><td class="memItemLeft" align="right" valign="top"><a id="a7abefd145abcfd36cdf597a3f9e0cb5d"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wnb</b></td></tr>
-<tr class="separator:a7abefd145abcfd36cdf597a3f9e0cb5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09ccc332c5aedd6a3858779897ef16e8"><td class="memItemLeft" align="right" valign="top"><a id="a09ccc332c5aedd6a3858779897ef16e8"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>att</b></td></tr>
-<tr class="separator:a09ccc332c5aedd6a3858779897ef16e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02c6a9713bd3ec2a4e0f5a28bac13a0c"><td class="memItemLeft" align="right" valign="top"><a id="a02c6a9713bd3ec2a4e0f5a28bac13a0c"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vn</b></td></tr>
-<tr class="separator:a02c6a9713bd3ec2a4e0f5a28bac13a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a742a1e07b49aecaae5d75b7d717e1cfc"><td class="memItemLeft" align="right" valign="top"><a id="a742a1e07b49aecaae5d75b7d717e1cfc"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vb</b></td></tr>
-<tr class="separator:a742a1e07b49aecaae5d75b7d717e1cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9bc12a007af50e93598054e05447cb"><td class="memItemLeft" align="right" valign="top"><a id="a9c9bc12a007af50e93598054e05447cb"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pos</b></td></tr>
-<tr class="separator:a9c9bc12a007af50e93598054e05447cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd76c1171d1420f5415bae35ea282ecf"><td class="memItemLeft" align="right" valign="top"><a id="abd76c1171d1420f5415bae35ea282ecf"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>eb</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#abd76c1171d1420f5415bae35ea282ecf">eb</a></td></tr>
+<tr class="memdesc:abd76c1171d1420f5415bae35ea282ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gryo bias. <br /></td></tr>
 <tr class="separator:abd76c1171d1420f5415bae35ea282ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55bc136da62342b36a2a21ac1c7e9fec"><td class="memItemLeft" align="right" valign="top"><a id="a55bc136da62342b36a2a21ac1c7e9fec"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>db</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a55bc136da62342b36a2a21ac1c7e9fec">db</a></td></tr>
+<tr class="memdesc:a55bc136da62342b36a2a21ac1c7e9fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accelerometer bias. <br /></td></tr>
 <tr class="separator:a55bc136da62342b36a2a21ac1c7e9fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20dc7c90b511d58bbf5388bd5abb49ef"><td class="memItemLeft" align="right" valign="top"><a id="a20dc7c90b511d58bbf5388bd5abb49ef"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a20dc7c90b511d58bbf5388bd5abb49ef">wib</a></td></tr>
+<tr class="memdesc:a20dc7c90b511d58bbf5388bd5abb49ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angular rate measurements( <img class="formulaInl" alt="$ \omega_{ib}^b $" src="form_14.png"/>) <br /></td></tr>
+<tr class="separator:a20dc7c90b511d58bbf5388bd5abb49ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4b10935840f8df3043837875b56c2e"><td class="memItemLeft" align="right" valign="top"><a id="adc4b10935840f8df3043837875b56c2e"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#adc4b10935840f8df3043837875b56c2e">fb</a></td></tr>
+<tr class="memdesc:adc4b10935840f8df3043837875b56c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specific force measurements( <img class="formulaInl" alt="$ f_{ib}^b $" src="form_7.png"/>) <br /></td></tr>
+<tr class="separator:adc4b10935840f8df3043837875b56c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026f8d67f03c2bf60a3b8e958418aaa0"><td class="memItemLeft" align="right" valign="top"><a id="a026f8d67f03c2bf60a3b8e958418aaa0"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a026f8d67f03c2bf60a3b8e958418aaa0">fn</a></td></tr>
+<tr class="memdesc:a026f8d67f03c2bf60a3b8e958418aaa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specific force project in n-frame( <img class="formulaInl" alt="$ f_{ib}^n $" src="form_8.png"/>) <br /></td></tr>
+<tr class="separator:a026f8d67f03c2bf60a3b8e958418aaa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ab5d315825ba9de6f94167ec2ca2a43"><td class="memItemLeft" align="right" valign="top"><a id="a9ab5d315825ba9de6f94167ec2ca2a43"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a9ab5d315825ba9de6f94167ec2ca2a43">an</a></td></tr>
+<tr class="memdesc:a9ab5d315825ba9de6f94167ec2ca2a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity differential( <img class="formulaInl" alt="$ \dot{ v_{en}^n } $" src="form_15.png"/>) <br /></td></tr>
+<tr class="separator:a9ab5d315825ba9de6f94167ec2ca2a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dff03bf1b837bf2a085f7b08fe527ba"><td class="memItemLeft" align="right" valign="top"><a id="a9dff03bf1b837bf2a085f7b08fe527ba"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a9dff03bf1b837bf2a085f7b08fe527ba">web</a></td></tr>
+<tr class="memdesc:a9dff03bf1b837bf2a085f7b08fe527ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angular rate( <img class="formulaInl" alt="$ \omega_{eb}^b $" src="form_16.png"/>) <br /></td></tr>
+<tr class="separator:a9dff03bf1b837bf2a085f7b08fe527ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7abefd145abcfd36cdf597a3f9e0cb5d"><td class="memItemLeft" align="right" valign="top"><a id="a7abefd145abcfd36cdf597a3f9e0cb5d"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a7abefd145abcfd36cdf597a3f9e0cb5d">wnb</a></td></tr>
+<tr class="memdesc:a7abefd145abcfd36cdf597a3f9e0cb5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angular rate( <img class="formulaInl" alt="$ \omega_{nb}^b $" src="form_17.png"/>) <br /></td></tr>
+<tr class="separator:a7abefd145abcfd36cdf597a3f9e0cb5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ccc332c5aedd6a3858779897ef16e8"><td class="memItemLeft" align="right" valign="top"><a id="a09ccc332c5aedd6a3858779897ef16e8"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a09ccc332c5aedd6a3858779897ef16e8">att</a></td></tr>
+<tr class="memdesc:a09ccc332c5aedd6a3858779897ef16e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current Attitude in Euler angle( <img class="formulaInl" alt="$ \phi_{nb} $" src="form_18.png"/>) <br /></td></tr>
+<tr class="separator:a09ccc332c5aedd6a3858779897ef16e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c6a9713bd3ec2a4e0f5a28bac13a0c"><td class="memItemLeft" align="right" valign="top"><a id="a02c6a9713bd3ec2a4e0f5a28bac13a0c"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a02c6a9713bd3ec2a4e0f5a28bac13a0c">vn</a></td></tr>
+<tr class="memdesc:a02c6a9713bd3ec2a4e0f5a28bac13a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carrier velocity under n-frame( <img class="formulaInl" alt="$ v_{en}^n $" src="form_19.png"/>) <br /></td></tr>
+<tr class="separator:a02c6a9713bd3ec2a4e0f5a28bac13a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a742a1e07b49aecaae5d75b7d717e1cfc"><td class="memItemLeft" align="right" valign="top"><a id="a742a1e07b49aecaae5d75b7d717e1cfc"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a742a1e07b49aecaae5d75b7d717e1cfc">vb</a></td></tr>
+<tr class="memdesc:a742a1e07b49aecaae5d75b7d717e1cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carrier velocity under b-frame( <img class="formulaInl" alt="$ v_{en}^b $" src="form_20.png"/>) <br /></td></tr>
+<tr class="separator:a742a1e07b49aecaae5d75b7d717e1cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9bc12a007af50e93598054e05447cb"><td class="memItemLeft" align="right" valign="top"><a id="a9c9bc12a007af50e93598054e05447cb"></a>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a9c9bc12a007af50e93598054e05447cb">pos</a></td></tr>
+<tr class="memdesc:a9c9bc12a007af50e93598054e05447cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geodetic position. <br /></td></tr>
+<tr class="separator:a9c9bc12a007af50e93598054e05447cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a541d8d7e53689e7a4d9109fe97574c84"><td class="memItemLeft" align="right" valign="top"><a id="a541d8d7e53689e7a4d9109fe97574c84"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tauGyro</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a541d8d7e53689e7a4d9109fe97574c84">tauGyro</a></td></tr>
+<tr class="memdesc:a541d8d7e53689e7a4d9109fe97574c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gryo correlation time of first-order Gauss-Markov stochastic model. <br /></td></tr>
 <tr class="separator:a541d8d7e53689e7a4d9109fe97574c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3677a12127f9baea38b970591d98c58"><td class="memItemLeft" align="right" valign="top"><a id="aa3677a12127f9baea38b970591d98c58"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tauAcc</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#aa3677a12127f9baea38b970591d98c58">tauAcc</a></td></tr>
+<tr class="memdesc:aa3677a12127f9baea38b970591d98c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accelerometer correlation time of first-order Gauss-Markov. <br /></td></tr>
 <tr class="separator:aa3677a12127f9baea38b970591d98c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f4f783fbbabbdfb269fbdb74bcde2c8"><td class="memItemLeft" align="right" valign="top"><a id="a0f4f783fbbabbdfb269fbdb74bcde2c8"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_betaGyro</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a0f4f783fbbabbdfb269fbdb74bcde2c8">_betaGyro</a></td></tr>
+<tr class="memdesc:a0f4f783fbbabbdfb269fbdb74bcde2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">-1/tauGryo <br /></td></tr>
 <tr class="separator:a0f4f783fbbabbdfb269fbdb74bcde2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95026163c348eb201949003e7e371461"><td class="memItemLeft" align="right" valign="top"><a id="a95026163c348eb201949003e7e371461"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_betaAcc</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a95026163c348eb201949003e7e371461">_betaAcc</a></td></tr>
+<tr class="memdesc:a95026163c348eb201949003e7e371461"><td class="mdescLeft">&#160;</td><td class="mdescRight">-1/tauAcc <br /></td></tr>
 <tr class="separator:a95026163c348eb201949003e7e371461"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44e17a71b71f61a38e5609ae558152f6"><td class="memItemLeft" align="right" valign="top"><a id="a44e17a71b71f61a38e5609ae558152f6"></a>
 <a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Maa</b></td></tr>
@@ -208,19 +243,24 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>hgtMax</b></td></tr
 <a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Mpp</b></td></tr>
 <tr class="separator:a68112c008ed820125980ba4d307178bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e318827d157bb878f71f9801ba31dfe"><td class="memItemLeft" align="right" valign="top"><a id="a0e318827d157bb878f71f9801ba31dfe"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>lvr</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a0e318827d157bb878f71f9801ba31dfe">lvr</a></td></tr>
+<tr class="memdesc:a0e318827d157bb878f71f9801ba31dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector(Antenna phase center relative to the IMU center) <br /></td></tr>
 <tr class="separator:a0e318827d157bb878f71f9801ba31dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bae49abafda8ff1084f35fee1c5999d"><td class="memItemLeft" align="right" valign="top"><a id="a1bae49abafda8ff1084f35fee1c5999d"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>vnL</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a1bae49abafda8ff1084f35fee1c5999d">vnL</a></td></tr>
+<tr class="memdesc:a1bae49abafda8ff1084f35fee1c5999d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Antenna velocity( <img class="formulaInl" alt="$ v_{eL}^n $" src="form_21.png"/>) <br /></td></tr>
 <tr class="separator:a1bae49abafda8ff1084f35fee1c5999d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29fd6ab34033015f67317692b20e6ec9"><td class="memItemLeft" align="right" valign="top"><a id="a29fd6ab34033015f67317692b20e6ec9"></a>
-<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>posL</b></td></tr>
+<a class="el" href="classCVect3.html">CVect3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a29fd6ab34033015f67317692b20e6ec9">posL</a></td></tr>
+<tr class="memdesc:a29fd6ab34033015f67317692b20e6ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Antenna geodetic position. <br /></td></tr>
 <tr class="separator:a29fd6ab34033015f67317692b20e6ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acba58cb7d0ce8ad2297cb6c4c1e765ac"><td class="memItemLeft" align="right" valign="top"><a id="acba58cb7d0ce8ad2297cb6c4c1e765ac"></a>
-<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CW</b></td></tr>
+<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#acba58cb7d0ce8ad2297cb6c4c1e765ac">CW</a></td></tr>
+<tr class="memdesc:acba58cb7d0ce8ad2297cb6c4c1e765ac"><td class="mdescLeft">&#160;</td><td class="mdescRight"><img class="formulaInl" alt="$ C^n_b (\omega_{eb}^b\times) $" src="form_22.png"/> <br /></td></tr>
 <tr class="separator:acba58cb7d0ce8ad2297cb6c4c1e765ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60d06fbcb3a78e2f940de872ccebca1f"><td class="memItemLeft" align="right" valign="top"><a id="a60d06fbcb3a78e2f940de872ccebca1f"></a>
-<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MpvCnb</b></td></tr>
+<a class="el" href="classCMat3.html">CMat3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCSINS.html#a60d06fbcb3a78e2f940de872ccebca1f">MpvCnb</a></td></tr>
+<tr class="memdesc:a60d06fbcb3a78e2f940de872ccebca1f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><img class="formulaInl" alt="$ M_pv C^n_b $" src="form_23.png"/> <br /></td></tr>
 <tr class="separator:a60d06fbcb3a78e2f940de872ccebca1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45359b2a15d620e39dfeb274759eba85"><td class="memItemLeft" align="right" valign="top"><a id="a45359b2a15d620e39dfeb274759eba85"></a>
 <a class="el" href="classCQuat.html">CQuat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>qnbE</b></td></tr>
@@ -238,6 +278,219 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>hgtMax</b></td></tr
 <a class="el" href="classCRAvar.html">CRAvar</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Rwfa</b></td></tr>
 <tr class="separator:a4436f03cb638ea6d94ec21beb4e1b342"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>INS Navigation operations. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3c185e5cff1a144348b6a67b4ca51260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c185e5cff1a144348b6a67b4ca51260">&#9670;&nbsp;</a></span>CSINS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CSINS::CSINS </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCQuat.html">CQuat</a> &amp;&#160;</td>
+          <td class="paramname"><em>qnb0</em> = <code>qI</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>vn0</em> = <code>O31</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos0</em> = <code>O31</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>tk0</em> = <code>0.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize attitude, velocity and position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">qnb0</td><td>Initial attitude </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vn0</td><td>Initial velocity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos0</td><td>Initial position </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tk0</td><td>Initial time(sec) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a72629b2adcc58da836a56d92ad61cb8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72629b2adcc58da836a56d92ad61cb8a">&#9670;&nbsp;</a></span>Extrap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CSINS::Extrap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>wm</em> = <code>O31</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>vm</em> = <code>O31</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ts</em> = <code>0.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>INS fast extrapolation using 1 Gyro&amp;Acc sample. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pwm</td><td>Angle increment(1 sample), default(O31) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pvm</td><td>Velocity increment(1 sample),default(O31) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ts</td><td>Sample time interval(sec),default 0.0. When ts value is 0, this function will use current state as extrapolation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a84c1a841c9e2cf5995d4e17cb54532f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c1a841c9e2cf5995d4e17cb54532f0">&#9670;&nbsp;</a></span>lever()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CSINS::lever </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>dL</em> = <code>O31</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dL</td><td>vector(Antenna phase center relative to the IMU center) default:O31 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8794a8e720053356554ee2e7248b4088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8794a8e720053356554ee2e7248b4088">&#9670;&nbsp;</a></span>SetTauGA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CSINS::SetTauGA </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>tauG</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> &amp;&#160;</td>
+          <td class="paramname"><em>tauA</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set Gryo&amp;Acc correlation time of first-order Gauss-Markov stochastic model. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tauG</td><td>Gryo correlation time(sec) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tauA</td><td>Accelerometer correlation time(sec) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1f1094c298feba79b992328abe6a884b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1094c298feba79b992328abe6a884b">&#9670;&nbsp;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CSINS::Update </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCVect3.html">CVect3</a> *&#160;</td>
+          <td class="paramname"><em>pvm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>INS Navigation solution update. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pwm</td><td>Attitude increment(Gryo measurements) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pvm</td><td>Velocity increment(Accelerometer measurements) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nSamples</td><td>Number of subsamples </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ts</td><td>Sampling interval(sec) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Algorithm/<a class="el" href="PSINS_8h_source.html">PSINS.h</a></li>
 <li>Algorithm/<a class="el" href="PSINS_8cpp.html">PSINS.cpp</a></li>

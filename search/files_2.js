@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mathbase_2ecpp',['MathBase.cpp',['../MathBase_8cpp.html',1,'']]],
-  ['mathbase_2eh',['MathBase.h',['../MathBase_8h.html',1,'']]]
+  ['psins_2ecpp',['PSINS.cpp',['../PSINS_8cpp.html',1,'']]],
+  ['psins_2eh',['PSINS.h',['../PSINS_8h.html',1,'']]]
 ];
